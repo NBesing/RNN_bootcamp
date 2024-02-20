@@ -1,0 +1,87 @@
+.welcome-col{
+    background-color: #65B7F1;
+    color: white;
+    height: 640px;
+}
+.logo{
+    height: 50px!important;
+    width: px!important;
+    object-fit: cover;
+    border: 2px solid white;
+}
+.welcome-text{
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin-top: 90px!important;
+}   
+.text1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.text2{
+    font-size: 16px;
+}
+.outline{
+    color: white!important;
+    border:1px solid  white!important;
+    width: 110px;
+    border-radius: 12px!important;
+}
+.outline:hover{
+    color: white!important;
+    border:2px solid  white!important;
+    width: 115px;
+    border-radius: 12px!important;
+}
+.login-text{
+    color: #65B7F1;
+    font-size: 40px;
+    font-weight: 600;
+}
+.input{
+    background-color: #E9F2F9!important;
+   /* border: none!important;  */
+    width: 500px!important;
+    color: #8493BA!important;
+    display: flex;
+    padding: 10px 30px;
+    border-radius: 10px;
+    
+
+}
+.input-field{
+    background-color: #E9F2F9!important;
+    border: none!important;
+    height: 0px!important;
+    width: 500px!important;
+  
+    display: flex;
+}
+.icon{
+    height: 24px;
+    width: 24px;
+
+}
+.forgot-password{
+    font-weight: 600;
+    color:#F18C65;
+}
+.button{
+    background-color: #F18C65!important;
+    color: white!important;
+    width: 110px;
+    border-radius: 12px!important;
+
+}
+.button:hover{
+    background-color: #c56741!important;
+    color: white!important;
+    width: 115px;
+    height: 35px;
+    border-radius: 12px!important;
+
+}
+.errormessage{
+    /* margin-top: -25px!important; */
+    margin-left: 140px!important;
+}

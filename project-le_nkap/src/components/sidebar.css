@@ -1,0 +1,48 @@
+.sidebar{
+    background-color: #208BD9!important;
+    /* margin-right:-5px!important; */
+
+}
+.navigation{
+    background-color: white;
+    padding-bottom: 260px;
+    
+}
+.logo-row{
+   
+    height: 78px;
+    border-bottom: 1px solid white!important;
+
+}
+.logo{
+    height: 50px!important;
+    width: 60px!important;
+    object-fit: cover;
+    border: 2px solid white;
+   
+}
+.my-icon{
+    height: 18px;
+    width: 18px;
+}
+.nav-row{
+  
+}
+
+.link1{
+    background-color: #65B7F1;
+    
+}
+.nav-link{
+    color:white!important;
+    font-size:16px!important;
+}
+
+
+
+
+
+.top-panel{
+    background-color: #65B7F1;
+    height: 78px;
+}
