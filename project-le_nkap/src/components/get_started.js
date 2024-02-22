@@ -2,19 +2,12 @@ import get_started from "./get_started";
 import { Link, useHistory } from "react-router-dom";
 import { useState,} from "react";
 import { useForm } from 'react-hook-form';
+import React from 'react'
 
-function GetStarted() {
-
-  const [values, setValues] = useState({
-    month: "",
-    date: "",
-    amount: "",
-  })
-  const[errors, setErrors] = useState({});
-  const history = useHistory();
-
+const GetStarted = () => {
   return (
-    <div className="container ">
+    <div>
+          <div className="container ">
       <div className="row d-flex justify-content-center align-items-center mt-5 ">
         <div className="col-12 col-md-5 shadow-lg form  ps-5 pe-5 pt-3 pb-5">
           <form className="">
@@ -55,7 +48,8 @@ function GetStarted() {
       
     
     </div>
-  );
+    </div>
+  )
 }
 
 export default GetStarted;

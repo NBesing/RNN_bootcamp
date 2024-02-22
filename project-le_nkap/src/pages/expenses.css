@@ -1,0 +1,24 @@
+.add-button{
+    background-color: #208BD9!important;
+    border-radius: 10px!important;
+    color: white!important;
+    height: 35px;
+}
+
+.addicon{
+    height: 20px;
+    width: 20px
+}
+.action-icon{
+    height: 30px;
+    width: 30px;
+    
+    
+}
+.popup{
+    background-color: rgb(0, 0, 0. 0.2);
+}
+.total{
+    font-size: 20px!important;
+    font-weight: 600;
+}

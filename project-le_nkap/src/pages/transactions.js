@@ -29,7 +29,7 @@ function Transactions(){
                     </div>
                   </Link>
               </div>
-              <div className="row  ps-1 pe-1  ">
+              <div className="row  ps-1 pe-1 expense_income  ">
                       <div className="col-12 col-md-6 expense-income mb-2   bg-danger rounded-3 ">
                           <p className="title text-center ">EXPENSES</p>
                           <div className="row balancerow rounded-4  text-center">
@@ -42,7 +42,6 @@ function Transactions(){
                                     <div className="col d-flex justify-content-end icon-row mt-2">
                                       <img src={edit} className=" icon me-2"/>
                                       <img src={deleteicon} className=" icon me-2"/>
-                                    
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Internet</h5>

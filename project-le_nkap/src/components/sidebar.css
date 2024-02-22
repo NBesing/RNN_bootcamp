@@ -1,5 +1,7 @@
 .sidebar{
     background-color: #208BD9!important;
+    height: 605px;
+    position: sticky;
     /* margin-right:-5px!important; */
 
 }
@@ -29,7 +31,7 @@
   
 }
 
-.link1{
+.active{
     background-color: #65B7F1;
     
 }
