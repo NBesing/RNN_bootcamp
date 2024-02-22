@@ -11,6 +11,7 @@ import Expenses from "./pages/expenses";
 import AddTransaction from "./components/add_transaction";
 import ExpenseFilter from "./components/expense_filter";
 import AddExpense from "./components/add_expense";
+import ExpenseForm from "./components/expense_form";
 // import Transactions from "./pages/transactions";
 
 
@@ -60,10 +61,14 @@ function App() {
             </Route>
             <Route path="/add_expense">
                <AddExpense/>
-            </Route>
-            <Route >
+            </Route >
+            <Route path="/expense_filter">
                <ExpenseFilter filterItems={filterItems}/>
             </Route>
+            <Route path="/expense_form">
+               <ExpenseForm/>
+            </Route>
+
 
 
           </Switch>

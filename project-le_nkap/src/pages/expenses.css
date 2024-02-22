@@ -1,3 +1,8 @@
+.expense{
+    display: block;
+    width: 100%;
+    
+}
 .add-button{
     background-color: #208BD9!important;
     border-radius: 10px!important;
@@ -14,6 +19,12 @@
     width: 30px;
     
     
+}
+.table-row{
+    background-color: blueviolet!important;
+}
+.tr:hover{
+    background-color: #208BD9;
 }
 .popup{
     background-color: rgb(0, 0, 0. 0.2);

@@ -8,6 +8,7 @@ import addButton from "../assets/addButton.svg";
 import edit from "../assets/edit.svg";
 import deleteicon from "../assets/deleteicon.svg";
 import AddExpense from "../components/add_expense";
+import ExpenseForm from "../components/expense_form";
 import React from "react";
 import ExpenseFilter from "../components/expense_filter";
 
@@ -16,7 +17,7 @@ const Expenses = ({items,deleteItem}) => {
 
   return (
     <div>
-      <div className="transactions container-fluid">
+      <div className="expense container-fluid">
         <div className="row">
           <div className="col-md-2 sidebar">
             <Sidebar />
@@ -45,7 +46,7 @@ const Expenses = ({items,deleteItem}) => {
 
             <table class="table table-bordered table-sm">
               <thead>
-                <tr>
+                <tr >
                   <th scope="col">#</th>
                   <th scope="col">Category</th>
                   <th scope="col">Description</th>
@@ -57,7 +58,7 @@ const Expenses = ({items,deleteItem}) => {
 
               <tbody>
 
-                {items.map((item) => <tr key={item.id}>
+                {items.map((item) => <tr className=" table-row" key={item.id}>
                   <th scope="row">{item.id}</th>
                   <td>{item.category}</td>
                   <td>{item.description}</td>
@@ -79,7 +80,7 @@ const Expenses = ({items,deleteItem}) => {
                 </tr>)
                 }
               
-                <tr className="total">
+                <tr className=" total">
                   <th scope="row"></th>
                   <td colspan="2 ">Total</td>
                  
@@ -88,6 +89,8 @@ const Expenses = ({items,deleteItem}) => {
                 </tr>
               </tbody>
             </table>
+           
+           
           </div>
         </div>
       </div>
